@@ -2,7 +2,7 @@
 
 ------
 
-![UpperBox screenshot](screenshot.jpg?raw=true)
+![UpperBox screenshot](https://raw.githubusercontent.com/Pooria-H/upperBox/master/screenshot.JPG)
 
 A simple JQuery modal to show content with style to users.
 
