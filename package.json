@@ -1,0 +1,36 @@
+{
+	"name": "upperbox",
+	"version": "1.0.0",
+	"description": "A JQuery modal to show content with style to users.",
+	"main": [
+		"upperbox/upperbox.js",
+		"upperbox/upperbox.scss",
+		"upperbox/upperbox.min.js",
+		"upperbox/upperbox.min.css"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Pooria-H/upperBox.git"
+	},
+	"keywords": [
+		"upperbox",
+		"modal",
+		"jquery",
+		"js"
+	],
+	"author": "Pooria Han",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Pooria-H/upperBox/issues"
+	},
+	"homepage": "https://github.com/Pooria-H/upperBox#readme",
+	"dependencies": {
+		"jquery": ">=1.7.2"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^2.3.2",
+		"gulp-uglify": "^2.0.0"
+	}
+}
