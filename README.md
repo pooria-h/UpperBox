@@ -2,6 +2,8 @@
 
 ------
 
+[UpperBox screenshot](screenshot.jpg)
+
 A simple JQuery modal to show content with style to users.
 
 No more shit(no more extra images or fonts), Just `1KB.js + 2KB.css + 85KB.JQuery.js :D`
