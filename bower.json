@@ -25,7 +25,8 @@
 		"test",
 		"tests",
 		"gulpfile.js",
-		"package.json"
+		"package.json",
+		"screenshot.jpg"
 	],
 	"dependencies": {
 		"jquery": "^3.1.0"
