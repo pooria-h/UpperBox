@@ -1,17 +1,18 @@
 # upperBox
----
+
+------
 
 A simple JQuery modal to show content with style to users.
 
-No more shits(no more extra images or fonts), Just `1KB.js + 2KB.css + 85KB.JQuery.js :D`
+No more shit(no more extra images or fonts), Just `1KB.js + 2KB.css + 85KB.JQuery.js :D`
 
 In the future I will develop a lighter version of upperBox without JQuery.
 
 ### Installation
-- ##### Bower
-`bower install upperbox`
-- ##### NPM
-`npm install upperbox`
+- Bower:
+	`bower install upperbox`
+- NPM:
+	`npm install upperbox`
 
 ### How to use
 1. Add a link to the CSS file Inside `<head>` tag:
