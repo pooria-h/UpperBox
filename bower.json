@@ -10,9 +10,7 @@
 	],
 	"main": [
 		"upperbox/upperbox.js",
-		"upperbox/upperbox.scss",
-		"upperbox/upperbox.min.js",
-		"upperbox/upperbox.min.css"
+		"upperbox/upperbox.scss"
 	],
 	"authors": [
 		"Pooria Han"
