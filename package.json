@@ -2,12 +2,7 @@
 	"name": "upperbox",
 	"version": "1.0.0",
 	"description": "A JQuery modal to show content with style to users.",
-	"main": [
-		"upperbox/upperbox.js",
-		"upperbox/upperbox.scss",
-		"upperbox/upperbox.min.js",
-		"upperbox/upperbox.min.css"
-	],
+	"main": "upperbox/upperbox.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Pooria-H/upperBox.git"
