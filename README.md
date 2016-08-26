@@ -2,7 +2,7 @@
 
 ------
 
-[UpperBox screenshot](screenshot.jpg)
+![UpperBox screenshot](screenshot.jpg)
 
 A simple JQuery modal to show content with style to users.
 
