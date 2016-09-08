@@ -49,6 +49,22 @@ Repo: https://github.com/Pooria-H/upperBox
 
 		// Add content
 		$(element).find(".content").html(settings.content);
+		// Append main body to plugin
+		$(this).append(element);
+
+		// If position is tower, wrap .upperbox-towerWrapper around element
+		if (settings.position == "tower") {
+			// If towerWrapper element is not created before then create one
+			if ( $(this).find(".upperbox-towerWrapper").length == 0 ) {
+				var towerElem = document.createElement("div");
+				$(towerElem).addClass("upperbox-towerWrapper").html(element);
+				$(this).append(towerElem);
+			}
+			else {
+				var towerElem = $(this).find(".upperbox-towerWrapper");
+				$(towerElem).append(element);
+			}
+		}
 
 		// Show with delay
 		setTimeout(function() {
@@ -59,9 +75,6 @@ Repo: https://github.com/Pooria-H/upperBox
 				$(element).slideDown(200);
 			}
 		}, 50);
-
-		// Append main body to plugin
-		$(this).append(element);
 
 		// Close modal on button click
 		$(element).find(".close").click(function() {

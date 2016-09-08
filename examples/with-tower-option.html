@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UpperBox examples</title>
+	<link rel="stylesheet" href="../upperbox/upperbox.min.css">
+</head>
+<body>
+	<div class="box">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus doloremque necessitatibus sequi nisi officia fuga qui quis, nihil quasi quidem dolores ex ratione enim ad ut. Laudantium ratione consequatur quo.
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fuga fugiat, blanditiis iure. Reprehenderit non debitis fuga nihil sequi cupiditate perferendis earum illum nulla molestiae. Unde fuga quos illo aliquid.
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../upperbox/upperbox.min.js"></script>
+	<script>
+		$(".box").upperbox({
+			content: 'Hello world...',
+			position: "tower",
+			destroyElem: true
+		});
+		$(".box").upperbox({
+			content: 'Hello world again...',
+			position: "tower",
+			destroyElem: true
+		});
+	</script>
+</body>
+</html>

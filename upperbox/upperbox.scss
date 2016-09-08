@@ -1,13 +1,18 @@
 // upperbox
 .upperbox {
 	z-index: 99;
-	&.relative {
+	&.relative, &.tower {
 		position: relative;
 		padding: 10px 0;
 		.upperbox-wrapper {
 			position: relative;
 			margin: 0 auto;
 			background-color: ghostwhite;
+		}
+	}
+	&.tower {
+		&:first-child {
+			padding-top: 0;
 		}
 	}
 	&.fixed {
@@ -76,4 +81,11 @@
 			text-align: center;
 		}
 	}
+}
+
+// towerWrapper
+.upperbox-towerWrapper {
+	position: fixed;
+	top: 15px;
+	left: 15px;
 }

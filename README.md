@@ -44,7 +44,7 @@ In the future I will develop a lighter version of upperBox without JQuery.
 Option | Type | Default | Description
 ------ | ---- | ------- | -----------
 content | string | ___ | Text block you want to show
-position | string | relative | "relative" or "fixed". If "relative" is used, you can show multiple upperBox togheter. If "fixed" is used, upperBox will sit in center of the display.
+position | string | relative | "relative", "fixed" or "tower". If "relative" is used, you can show multiple upperBox togheter. If "fixed" is used, upperBox will sit in center of the display. And if "tower" is used, boxes sit on top of each other but out of page flow.
 animate | string | slide | "slide" or "fade". Both use JQuery effect.
 class | string | ___ | Any additional CSS class. If you want override the style.
 destroyElem | boolean | true | By pressing close button, modal should be deleted or not
