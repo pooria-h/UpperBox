@@ -6,7 +6,8 @@
 		"upperbox",
 		"modal",
 		"jquery",
-		"js"
+		"js",
+		"notification"
 	],
 	"main": [
 		"upperbox/upperbox.js",

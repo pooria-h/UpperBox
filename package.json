@@ -11,7 +11,8 @@
 		"upperbox",
 		"modal",
 		"jquery",
-		"js"
+		"js",
+		"notification"
 	],
 	"author": "Pooria Han",
 	"license": "MIT",
